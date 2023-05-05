@@ -10,6 +10,9 @@ HUGO_ENABLEGITINFO = "true"
 [context.split1]
 command = "hugo --gc --minify --enableGitInfo"
 
+[build.environment]
+HUGO_VERSION = "0.111.3"
+
 [context.split1.environment]
 HUGO_VERSION = "0.111.3"
 HUGO_ENV = "production"
